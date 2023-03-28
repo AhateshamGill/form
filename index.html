@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>Forms</title>
+
+<style>
+
+form{
+border:1px solid lightgray;
+width:40%;
+margin:0 auto;
+padding:3rem;
+background: radial-gradient(red, green, blue);
+}
+
+input{
+width:100%;
+padding:0.9rem;
+margin-bottom:1rem;
+border:0.7px solid lightgray;
+border-radius:4px;
+background: rgb(42, 99, 156);
+color: wheat;
+}
+
+label{
+font-size:1.4rem;
+margin-bottom:1.9rem;
+color: aliceblue;
+}
+::placeholder{
+font-size:1rem;
+text-transform:capitalize;
+background: violet;
+}
+
+button{
+width:100%;
+padding:0.9rem;
+background:transparent;
+border:0.5px solid green;
+border-radius: 50%;
+background-color: blueviolet;
+color: blanchedalmond;
+}
+button:hover {  background: linear-gradient(to right, green, blue, red);
+  cursor: pointer;
+
+}
+input:hover {
+  cursor: pointer;
+  background: linear-gradient(to right, green, blue, red);
+}
+
+</style>
+
+
+</head>
+
+
+<body>
+<form>
+<label>Name:</label><br>
+<input type="text" placeholder="Enter your name..."><br>
+<label>Password:</label><br>
+<input type="password" placeholder="password"><br>
+<label>DOB</label><br>
+<input type="date" placeholder="DOB"><br>
+<button>Submit Data</button>
+
+
+
+</form>
+</body>
+
+
+</html>
